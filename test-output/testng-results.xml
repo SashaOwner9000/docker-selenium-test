@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46024" started-at="2019-01-15T18:46:32Z" finished-at="2019-01-15T18:47:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46024" started-at="2019-01-15T18:46:32Z" finished-at="2019-01-15T18:47:18Z">
+      <class name="test.java.com.testautomationguru.container.test.OrderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="1579" started-at="2019-01-15T19:46:32Z" finished-at="2019-01-15T19:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="6920" started-at="2019-01-15T19:46:33Z" data-provider="category" finished-at="2019-01-15T19:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessories]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3305" started-at="2019-01-15T19:46:40Z" data-provider="category" finished-at="2019-01-15T19:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMacs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="4042" started-at="2019-01-15T19:46:43Z" data-provider="category" finished-at="2019-01-15T19:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPads]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3733" started-at="2019-01-15T19:46:48Z" data-provider="category" finished-at="2019-01-15T19:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3091" started-at="2019-01-15T19:46:51Z" data-provider="category" finished-at="2019-01-15T19:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPods]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3409" started-at="2019-01-15T19:46:54Z" data-provider="category" finished-at="2019-01-15T19:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBooks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="4117" started-at="2019-01-15T19:46:58Z" data-provider="category" finished-at="2019-01-15T19:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessories]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="2852" started-at="2019-01-15T19:47:02Z" data-provider="category" finished-at="2019-01-15T19:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMacs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3348" started-at="2019-01-15T19:47:05Z" data-provider="category" finished-at="2019-01-15T19:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPads]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="2717" started-at="2019-01-15T19:47:08Z" data-provider="category" finished-at="2019-01-15T19:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3000" started-at="2019-01-15T19:47:11Z" data-provider="category" finished-at="2019-01-15T19:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPods]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="googleTest" duration-ms="3818" started-at="2019-01-15T19:47:14Z" data-provider="category" finished-at="2019-01-15T19:47:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBooks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.testautomationguru.container.test.OrderTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="70" started-at="2019-01-15T19:47:18Z" finished-at="2019-01-15T19:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.com.testautomationguru.container.test.OrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

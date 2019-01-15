@@ -1,4 +1,4 @@
-package com.testautomationguru.container.pages;
+package main.java.com.testautomationguru.container.pages;
 
 import java.util.List;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package com.testautomationguru.container.test;
+package test.java.com.testautomationguru.container.test;
 
 import org.testng.annotations.BeforeTest;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 
-public class BaseTest {
+public class Base {
 
     protected WebDriver driver;
     
@@ -18,16 +18,14 @@ public class BaseTest {
     public void setUp() throws MalformedURLException {
         
         DesiredCapabilities dc = DesiredCapabilities.chrome();
-
+        
         if (System.getProperty("browser").equals("firefox"))
             dc = DesiredCapabilities.firefox();
 
-        String host = System.getProperty("seleniumHubHost");
-        
-        driver = new RemoteWebDriver(new URL("http://" + host + ":4444/wd/hub"), dc);
-        
+        driver = new RemoteWebDriver(new URL("http://" + System.getProperty("seleniumHubHost") + ":" + 
+        System.getProperty("port") + "/wd/hub"), dc);
     }
-
+    
     @AfterTest
     public void tearDown() throws InterruptedException {
         driver.quit();

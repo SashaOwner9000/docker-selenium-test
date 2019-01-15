@@ -1,5 +1,4 @@
-C:\Users\okozlova\Documents\docker-selenium-test-master\src\main\java\com\testautomationguru\container\pages\OrderPage.java
-C:\Users\okozlova\Documents\docker-selenium-test-master\src\test\java\com\testautomationguru\container\test\SearchTest.java
-C:\Users\okozlova\Documents\docker-selenium-test-master\src\main\java\com\testautomationguru\container\pages\SearchPage.java
-C:\Users\okozlova\Documents\docker-selenium-test-master\src\test\java\com\testautomationguru\container\test\BaseTest.java
-C:\Users\okozlova\Documents\docker-selenium-test-master\src\test\java\com\testautomationguru\container\test\OrderTest.java
+/home/sasha/git_prj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/SearchPage.java
+/home/sasha/git_prj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/OrderPage.java
+/home/sasha/git_prj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/OrderTest.java
+/home/sasha/git_prj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/Base.java

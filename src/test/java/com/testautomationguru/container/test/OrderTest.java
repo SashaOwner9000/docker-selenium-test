@@ -1,4 +1,4 @@
-package com.testautomationguru.container.test;
+package test.java.com.testautomationguru.container.test;
 
 
 import java.net.MalformedURLException;
@@ -9,9 +9,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.testautomationguru.container.pages.OrderPage;
+import main.java.com.testautomationguru.container.pages.OrderPage;
 
-public class OrderTest extends BaseTest{
+public class OrderTest extends Base{
 
     private OrderPage store;
 
@@ -40,13 +40,8 @@ public class OrderTest extends BaseTest{
               { "iPads" },
               { "iPhones" },
               { "iPods" }, 
-              { "MacBooks" },
-              { "Accessories" },
-              { "iMacs" },
-              { "iPads" },
-              { "iPhones" },
-              { "iPods" }, 
-              { "MacBooks" }              
+              { "MacBooks" }
+                           
           };
     }
 
