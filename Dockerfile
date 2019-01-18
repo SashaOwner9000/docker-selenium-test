@@ -11,7 +11,6 @@ WORKDIR /usr/share/tag/
 
 RUN mkdir test-output
 
-USER root
 # Command line to execute the test
 # Expects below ennvironment variables
 # BROWSER = chrome / firefox
