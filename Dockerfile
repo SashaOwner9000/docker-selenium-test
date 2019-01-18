@@ -8,6 +8,9 @@ ADD  target/libs /usr/share/tag/libs
 ADD order-module.xml /usr/share/tag/order-module.xml
 
 WORKDIR /usr/share/tag/
+
+RUN mkdir test-output
+
 # Command line to execute the test
 # Expects below ennvironment variables
 # BROWSER = chrome / firefox
