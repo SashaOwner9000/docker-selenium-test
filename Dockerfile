@@ -7,10 +7,11 @@ ADD  target/libs /usr/share/tag/libs
 # Add the suite xmls
 ADD order-module.xml /usr/share/tag/order-module.xml
 
+WORKDIR /usr/share/tag/
 # Command line to execute the test
 # Expects below ennvironment variables
 # BROWSER = chrome / firefox
 # MODULE  = order-module / search-module
 # GRIDHOST = selenium hub hostname / ipaddress
 
-ENTRYPOINT /usr/bin/java -cp /usr/share/tag/container-test.jar:/usr/share/tag/libs/* -DseleniumHubHost=$SELENIUM_HUB -Dbrowser=$BROWSER -Dport=$PORT org.testng.TestNG /usr/share/tag/order-module.xml
+ENTRYPOINT java -cp /usr/share/tag/container-test.jar:/usr/share/tag/libs/* -DseleniumHubHost=$SELENIUM_HUB -Dbrowser=$BROWSER -Dport=$PORT org.testng.TestNG /usr/share/tag/order-module.xml
