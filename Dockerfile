@@ -9,9 +9,7 @@ ADD order-module.xml /usr/share/tag/order-module.xml
 
 WORKDIR /usr/share/tag/
 
-RUN mkdir test-output
-
-RUN chmod 777 test-output
+RUN chmod 777 -R ./
 
 # Command line to execute the test
 # Expects below ennvironment variables
