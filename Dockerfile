@@ -11,7 +11,7 @@ WORKDIR /usr/share/tag/
 
 RUN mkdir test-output
 
-RUN chmod 777 test-output
+RUN chmod 666 test-output
 
 # Command line to execute the test
 # Expects below ennvironment variables
