@@ -14,4 +14,4 @@ WORKDIR /usr/share/tag/
 # MODULE  = order-module / search-module
 # GRIDHOST = selenium hub hostname / ipaddress
 
-ENTRYPOINT java -cp container-test.jar:/libs/* -DseleniumHubHost=$SELENIUM_HUB -Dbrowser=$BROWSER -Dport=$PORT org.testng.TestNG order-module.xml
+ENTRYPOINT java -cp container-test.jar:libs/* -DseleniumHubHost=$SELENIUM_HUB -Dbrowser=$BROWSER -Dport=$PORT org.testng.TestNG order-module.xml
