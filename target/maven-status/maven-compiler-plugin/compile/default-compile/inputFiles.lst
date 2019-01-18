@@ -1,4 +1,4 @@
-/home/sasha/git_prj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/SearchPage.java
-/home/sasha/git_prj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/OrderPage.java
-/home/sasha/git_prj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/OrderTest.java
-/home/sasha/git_prj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/Base.java
+/home/sasha/newprj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/Base.java
+/home/sasha/newprj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/OrderPage.java
+/home/sasha/newprj/docker-selenium-test/src/test/java/com/testautomationguru/container/test/OrderTest.java
+/home/sasha/newprj/docker-selenium-test/src/main/java/com/testautomationguru/container/pages/SearchPage.java
